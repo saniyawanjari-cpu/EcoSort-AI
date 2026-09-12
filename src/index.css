@@ -1,0 +1,63 @@
+:root {
+  --bg: #f5f7f4;
+  --bg-alt: #eef4ef;
+  --surface: #ffffff;
+  --ink: #14281f;
+  --muted: #5b6d64;
+  --line: #dce8e0;
+  --green: #1c7a4c;
+  --green-dark: #145c39;
+  --green-soft: #e7f5ec;
+  --leaf: #2ea36a;
+  --shadow: 0 16px 40px rgba(20, 40, 32, 0.08);
+  --shadow-sm: 0 8px 24px rgba(20, 40, 32, 0.06);
+  --radius: 22px;
+  --header-h: 76px;
+  --sans: 'Outfit', system-ui, 'Segoe UI', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+button,
+input,
+textarea {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+  margin: 0 0 0.6em;
+}
+
+p {
+  margin: 0;
+}
