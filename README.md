@@ -268,7 +268,7 @@ Waste-disposal rules vary by location. EcoSort provides general guidance and enc
 
 \*\*Development\*\*
 
-\- Cursor
+
 
 \- Git / GitHub
 
